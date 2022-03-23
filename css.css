@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #bed0be;
+    display: flex;
+    min-height: 100vh;
+}
+.container {
+    background-color: #8226b6;
+    height: 200px;
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-direction: column;
+}
+.circle {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circle.red {
+    background-color: #cd0404;
+}
+.circle.yellow {
+    background-color: #f5f50a;
+
+}.circle.green {
+    background-color: #027202;
+}
+p {
+    font-size: 15px;
+    margin: 10px;
+    left: 10px;
+}
